@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Calibri, Arial, Helvetico, sans-serif;
+	background: url(../img/Background.png) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.wrapper{
+	width: 862px;
+	margin: auto;
+	padding-top: 78px;
+}
+a{
+	text-decoration: none;
+
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*=====================header=======================*/
+.logo{
+	position: relative;
+	width: 320px;
+	float: left;
+}
+.logo h1{
+	font-family: Arial, Helvetico, sans-serif;
+	font-size: 72px;
+	letter-spacing: -5px;
+	color: #fff;
+	margin-left: 30px;
+}
+.logo div{
+	width: 108px;
+	height: 120px;
+	background: url(../img/magnifier_logo.png) 0 0 no-repeat;
+	position: absolute;
+	top: 0;
+	left: -5px;
+}
+.nav{
+	float: right;
+	width: 50%;
+	margin-top: 20px;
+}
+.nav li{
+	display: inline-block;
+}
+.nav a{
+	font-size: 24px;
+	color: #873b11;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black, 0 0 1em;
+	padding: 10px;
+}
+.icon_pack{
+	margin-top: 30px;
+	border-radius: 5px;
+	padding-top: 20px;
+	padding-left: 30px;
+	border: 1px solid #000;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#582309+0,321905+100 */
+	background: #582309; /* Old browsers */
+	background: -moz-linear-gradient(top, #582309 0%, #321905 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #582309 0%,#321905 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #582309 0%,#321905 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#582309', endColorstr='#321905',GradientType=0 ); /* IE6-9*/
+}
+.icon_pack h2{
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.icon_pack p{
+	font-size: 14px;
+	color: #fff;
+	width: 278px;
+}
+.icon_pack button{
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#351305+0,290f04+51,210c03+100 */
+	background: #351305; /* Old browsers */
+	background: -moz-linear-gradient(top, #351305 0%, #290f04 51%, #210c03 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #351305 0%,#290f04 51%,#210c03 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #351305 0%,#290f04 51%,#210c03 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#351305', endColorstr='#210c03',GradientType=0 ); /* IE6-9 */
+
+}
